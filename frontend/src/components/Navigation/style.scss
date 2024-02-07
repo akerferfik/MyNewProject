@@ -1,27 +1,25 @@
-.nav-menu{
- 
+@import "../../assets/style/settings";
+
+
+.nav-first {
+    position: absolute;
     display: flex;
     justify-content: space-between;
-    
-    .left-nav{
-       padding-left: 100px;
-    }
-    .right-nav{
     gap: 10px;
-    padding: 20px ;
-    font-size: larger;
-    background-color: lightgray;
+    padding: 20px 100px;
+    align-items: center;
+    background-color: transparent;
     top: 0;
+    h1{
+        margin-right: 900px;
     }
-   
-    a {
-        color: #fff;
+    a{
+        color: white;
         text-decoration: none;
         display: inline-block;
         padding: 5px 10px;
-       font-family: cursive;
+
         &:hover{
             color: orange;
         }
-    }
-}
+    }}

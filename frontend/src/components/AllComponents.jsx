@@ -3,6 +3,7 @@ import Navigation from "./Navigation"
 import About from "./About"
 import Excursion from "./Excursion"
 import Kabinet from "./Kabinet"
+import First from "./First"
 
 
 function AllComponents(props) {
@@ -11,7 +12,7 @@ function AllComponents(props) {
     return (
         <Routes location={location} key={location.pathname}>
             <Route path="/" element={<Navigation />} >
-                <Route index element={<About />} />
+                <Route index element={<First />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/excursions" element={<Excursion/>} />
                 <Route path="/kabinet" element={<Kabinet/>} />
