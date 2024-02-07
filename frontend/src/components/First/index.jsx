@@ -1,8 +1,8 @@
 import './style.scss'
-import { Link} from "react-router-dom"
-import vk from  "../../assets/images/Vk.png"
-import ins from  "../../assets/images/Instagram.png"
-import fac from  "../../assets/images/Facebook.png"
+import play1 from "../../assets/images/play1.png";
+import play2 from "../../assets/images/play2.png";
+
+
 
 
 function First() {
@@ -15,11 +15,15 @@ function First() {
                 <h1 className="pero">PERO TRAVEL</h1>
                 <button className="excursion">К экскурсиям ➡</button>
             </div>
-            
+    <div className="images">
+                <img src={play1} alt="play1" />
+                <img src={play2} alt="play2" />
             </div>
-           
-           
-        </div>
+
+            </div>
+
+        
+            </div>
      );
 }
 

@@ -46,6 +46,32 @@ $travel-png: url('../../assets/images/Travel.png');
                 margin-top: 100px;
             }
         }
+        .images {
+            position: absolute;
+            top: 680px;
+            right: 0px;
+    
+            img:first-child {
+                margin-right: 10px;
+                display: inline-block;
+                width: 360px;
+                height: 227px;
+    
+            }
+    
+            .play-img {
+                position: absolute;
+                justify-content: center;
+                align-items: center;
+                right: 385px;
+                top: 75px;
+            }
+    
+            img:last-child {
+                display: inline-block;
+                height: 227px;
+            }
+        }
 
         
     }}
