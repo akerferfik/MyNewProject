@@ -1,0 +1,21 @@
+.nav-menu{
+    display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 20px 40px;
+        .left-nav{
+            h2 {
+             padding-left: 100px;
+            }
+        }
+        .right-nav{
+            a {
+               
+                padding: 20px 30px;
+                color: orange;
+               
+                border: none;
+                outline: none;
+                text-decoration: none;
+            }
+        }
+}
