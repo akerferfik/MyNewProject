@@ -1,5 +1,5 @@
 import { Link  } from 'react-router-dom'
-import img1 from "../../images/img1.png"
+import img1 from "../../assets/images/img1.png"
 
 function Nav(props) {
     return (
