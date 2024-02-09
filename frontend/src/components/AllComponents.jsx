@@ -4,6 +4,7 @@ import About from "./About"
 import Excursion from "./Excursion"
 import Kabinet from "./Kabinet"
 import First from "./First"
+import NoPage from "./NoPage"
 
 
 function AllComponents(props) {
@@ -16,6 +17,7 @@ function AllComponents(props) {
                 <Route path="/about" element={<About />} />
                 <Route path="/excursions" element={<Excursion/>} />
                 <Route path="/kabinet" element={<Kabinet/>} />
+                <Route path="*" element={<NoPage />} />
             </Route>
         </Routes>
     );
