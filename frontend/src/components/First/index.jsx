@@ -6,9 +6,7 @@ import NewExcurc from '../NewExcurs';
 import About from '../About';
 import Galereya from '../Galereya';
 import ContactsForm from '../ContactsForm';
-
-
-
+import Reviews from '../Reviews';
 
 function First() {
     return ( 
@@ -30,9 +28,14 @@ function First() {
             </div>
            <NewExcurc/>
             <br />
-            <About/>
-            <br />
+            <About/> 
             <Galereya/>
+            <br />
+            <br />
+            <br />
+            
+
+            <Reviews/>
             <br />
             <ContactsForm/>
             </div>
