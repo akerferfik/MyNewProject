@@ -27,6 +27,9 @@ function First() {
             </div>
             </div>
            <NewExcurc/>
+           <br />
+           <br />
+           <br />
             <br />
             <About/> 
             <Galereya/>
