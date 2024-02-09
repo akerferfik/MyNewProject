@@ -2,6 +2,7 @@ import './style.scss'
 import play1 from "../../assets/images/play1.png";
 import play2 from "../../assets/images/play2.png";
 import { Link } from 'react-router-dom';
+import NewExcurc from '../NewExcurs';
 
 
 
@@ -23,10 +24,9 @@ function First() {
                 <img src={play1} alt="play1" />
                 <img src={play2} alt="play2" />
             </div>
-
             </div>
 
-        
+         <NewExcurc/>
             </div>
      );
 }
